@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-left">
+    <h1 class="display-4">Lifetimes</h1>
+
+    <h6>Controller Operations</h6>
+
+    <div class="row" style="padding-left: 90px" >
+        <h5>Transiente</h5> <span style="font-size: 12pt; padding-top: 2px; padding-left: 25px">@ViewBag.Transient.OperationId</span>
+    </div>
+    <div class="row" style="padding-left: 90px" >
+        <h5>Scoped</h5> <span style="font-size: 12pt; padding-top: 2px; padding-left: 45px">@ViewBag.Scoped.OperationId</span>
+    </div>
+    <div class="row" style="padding-left: 90px" >
+        <h5>Singleton</h5> <span style="font-size: 12pt; padding-top: 2px; padding-left: 25px">@ViewBag.Singleton.OperationId</span>
+    </div>
+    <div class="row" style="padding-left: 90px" >
+        <h5>Instance</h5> <span style="font-size: 12pt; padding-top: 2px; padding-left: 35px">@ViewBag.SingletonInstance.OperationId</span>
+    </div>
+
+
+     <h6>Service Operations</h6>
+
+    <div class="row" style="padding-left: 90px" >
+        <h5>Transiente</h5> <span style="font-size: 12pt; padding-top: 2px; padding-left: 25px">@ViewBag.Service.TransientOperation.OperationId</span>
+    </div>
+    <div class="row" style="padding-left: 90px" >
+        <h5>Scoped</h5> <span style="font-size: 12pt; padding-top: 2px; padding-left: 45px">@ViewBag.Service.ScopedOperation.OperationId</span>
+    </div>
+    <div class="row" style="padding-left: 90px" >
+        <h5>Singleton</h5> <span style="font-size: 12pt; padding-top: 2px; padding-left: 25px">@ViewBag.Service.SingletonOperation.OperationId</span>
+    </div>
+    <div class="row" style="padding-left: 90px" >
+        <h5>Instance</h5> <span style="font-size: 12pt; padding-top: 2px; padding-left: 35px">@ViewBag.Service.SingletonInstanceOperation.OperationId</span>
+    </div>
+
+
+
+
+
+</div>
